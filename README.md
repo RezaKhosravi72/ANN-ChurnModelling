@@ -1,5 +1,7 @@
 # Customer Churn Prediction using Artificial Neural Networks 
 
+This code develops an artificial neural network model to perform binary classification on a bank customer churn dataset to predict whether a customer will leave the bank or not. It loads and preprocesses the dataset, doing one-hot encoding of categorical variables. It then develops and trains a simple multi-layer perceptron model using TensorFlow Keras with two hidden layers. The model is compiled and trained on the preprocessed training set. Then its predictive performance is evaluated on the held-out test set by generating predictions and calculating classification metrics like a confusion matrix and accuracy score. The code thus demonstrates the basic end-to-end workflow of developing, training, and evaluating an artificial neural network classifier on a real-world classification problem involving preprocessing of categorical variables.
+
 ### Objective:
 To build a neural network model to accurately predict whether banking customers will churn (leave) based on their profile data like demographics, account details, etc. This helps identify at-risk customers for retention programs.
 
